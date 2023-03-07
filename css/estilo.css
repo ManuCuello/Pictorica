@@ -24,6 +24,12 @@ body{
 #top{
     text-align: center;
 }
+.carousel{
+  z-index: 0;
+}
+.submenu{
+  z-index: 100;
+}
 .logo{
     width: 200px;
     margin-top: 10px;
