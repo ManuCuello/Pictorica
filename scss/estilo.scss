@@ -1,0 +1,85 @@
+.section1 {
+    background-image: url(../assets/Img/Mockup8.jpg);
+    height: 900px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+  
+    .p1, .p2 {
+      background-color: #cde0a275;
+      color: #ffffff;
+      line-height: 1.5;
+      padding: 20px;
+      margin-left: 4%;
+      margin-right: 4%;
+      font-size: 1.5rem;
+    }
+  }
+  
+  .section2 {
+    .chica1, .chica2, .chica3 {
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-block: 3%;
+    }
+  }
+  
+  .section3 {
+    background-image: url(../assets/Img/Mockup12.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: 200px;
+  
+    .redes {
+      margin-left: 15%;
+      margin-right: 10%;
+      margin-block: 3%;
+    }
+  
+    .instagram {
+      margin-left: 37%;
+      margin-right: 2%;
+      margin-block: 3%;
+    }
+  
+    .facebook {
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-block: 3%;
+    }
+  
+    .whatsapp {
+      margin-left: 2%;
+      margin-right: 10%;
+      margin-block: 3%;
+    }
+  }
+  
+  .section4 {
+    background-color: #464D37;
+    height: 850px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+    .imagen1 {
+      margin-left: 23%;
+      margin-right: 20%;
+      margin-block: 5%;
+      margin-bottom: 5%;
+    }
+  }
+  

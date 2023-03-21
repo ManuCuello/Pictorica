@@ -150,9 +150,6 @@ h3{
     margin-right: 2%;
     margin-block: 3%;
 }
-footer .logofinal{
-    height: ;
-}
 .section3{
     background-image: url(../assets/Img/Mockup12.jpg);
     height: 1000px;
@@ -162,11 +159,13 @@ footer .logofinal{
     background-repeat: no-repeat;
     margin-left: 5%;
     margin-right: 5%;
+    min-width: 200px;
 }
 .section3 .redes{
     margin-left: 15%;
     margin-right: 10%;
     margin-block: 3%;
+    min-width: 300px;
 }
 .section3 .instagram{
     margin-left: 37%;
@@ -198,6 +197,7 @@ footer .logofinal{
     margin-right: 20%;
     margin-block: 5%;
     margin-bottom: 5%;
+    min-width: 300px;
 }
 h5{
     color: #ffffff;
@@ -243,11 +243,17 @@ footer{
 
 }
 @media only screen and(min-width: 768px){
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 2fr auto auto;
-    grid-template-areas:
-    .chica1
-    .chica2
-    .chica3 ;
+    .section2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0,3fr 1fr 0,3fr 1fr
+        
+    }
+  
 
+}
+.imagen1:hover{
+    transform: translate(20px, 20px)
+}
+.redes:hover{
+    transform: translate(20px, 20px)
 }
