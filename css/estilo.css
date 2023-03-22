@@ -106,6 +106,8 @@ h3{
     padding: 5%;
     font-size: 3rem;
     color: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .section1{
     background-image: url(../assets/Img/Mockup8.jpg);
@@ -125,6 +127,7 @@ h3{
     margin-left: 4%;
     margin-right: 4%;
     font-size: 1.5rem;
+    text-align: center;
 }
 .section1 .p2{
     background-color: #cde0a275;
@@ -134,6 +137,7 @@ h3{
     margin-left: 4%;
     margin-right: 4%;
     font-size: 1.5rem;
+    text-align: center;
 }
 .section2 .chica1{
     margin-left: 2%;
@@ -168,29 +172,39 @@ h3{
     min-width: 300px;
 }
 .section3 .instagram{
-    margin-left: 37%;
+    margin-left: 38.5%;
     margin-right: 2%;
     margin-block: 3%;
+}
+.instagram:hover{
+    transform: scale(0.9, 0.9);
 }
 .section3 .facebook{
     margin-left: 2%;
     margin-right: 2%;
     margin-block: 3%;
 }
+.facebook:hover{
+    transform: scale(0.9, 0.9);
+}
 .section3 .whatsapp{
     margin-left: 2%;
     margin-right: 10%;
     margin-block: 3%;
 }
+.whatsapp:hover{
+    transform: scale(0.9, 0.9);
+}
 .section4{
     background-color: #464D37;
-    height: 850px;
+    height: 500px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
 }
 .section4 .imagen1{
     margin-left: 23%;
@@ -201,15 +215,20 @@ h3{
 }
 h5{
     color: #ffffff;
-    text-align: center;
+    text-align: end;
     padding: 3%;
     text-decoration: none;
 }
 footer .footer1{
-    background-color: #464d3789;
     height: 80px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.footer1:hover{
+    transform: scale(0.9, 0.9);
 }
 .section5{
     background-image: url(../assets/Img/Mockup12.jpg);
@@ -226,6 +245,9 @@ footer .footer1{
 .section5 .formulario{
     padding: 5%;
     background-color: #464d37b6;
+}
+.section4{
+    text-align: center;
 }
 footer{
     text-align: center;
@@ -248,12 +270,33 @@ footer{
         grid-template-rows: 0,3fr 1fr 0,3fr 1fr
         
     }
-  
-
 }
 .imagen1:hover{
-    transform: translate(20px, 20px)
+    transform:scale(0.9 , 0.9)
 }
 .redes:hover{
-    transform: translate(20px, 20px)
+    transform: scale(1.1 , 1.1);
+}
+.chica1:hover{
+    transform: scale(0.9,0.9);
+}
+.chica2:hover{
+    transform: scale(0.9,0.9);
+}
+.chica3:hover{
+    transform: scale(0.9,0.9);
+}
+.logo:hover{
+    transform: scale(0.9, 0.9);
+}
+.h5{
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.h5:hover{
+    transform: scale(0.9, 0.9)
+}
+.card-title{
+    text-align: center;
 }
